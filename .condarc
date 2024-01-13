@@ -1,0 +1,33 @@
+channels:
+  - defaults
+show_channel_urls: true
+# Accepts values of 'strict', 'flexible', and 'disabled'.
+channel_priority: disabled
+default_channels:
+# bfsu channel
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/r
+  - https://mirrors.bfsu.edu.cn/anaconda/pkgs/msys2
+# thu channel
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  # - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+# bfsu channel 
+  conda-forge: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  msys2: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  menpo: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  pytorch-lts: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.bfsu.edu.cn/anaconda/cloud
+  deepmodeling: https://mirrors.bfsu.edu.cn/anaconda/cloud/
+# thu channel
+  # conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  # deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
