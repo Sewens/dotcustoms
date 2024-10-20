@@ -2,11 +2,26 @@
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "version": 2,
   "console_title_template": "{{ .Folder }}",
-  "blocks": [
+  "blocks": [        
     {
       "type": "prompt",
       "alignment": "left",
       "segments": [
+        {
+          "background": "#bbbbbb",
+          "foreground": "#193549",
+          "powerline_symbol": "\ue0b0",
+          "style": "diamond",
+          "properties": {
+            "fetch_virtual_env": true,
+            "display_mode": "environment",
+            "home_enabled": true,
+            "display_virtual_env": true,
+            "display_default": true
+          },
+          "template": " \ue235 {{ .Venv }} ",
+          "type": "python"
+        },
         {
           "type": "session",
           "style": "diamond",
@@ -22,7 +37,7 @@
           "powerline_symbol": "\ue0b0",
           "foreground": "#ffffff",
           "background": "#0080ff",
-          "template": " \ue5ff {{ .Path }} ",
+          "template": " \u03bb {{ .Path }} ",
           "properties": {
             "style": "full"
           }
